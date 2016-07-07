@@ -1,0 +1,462 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border: 0;
+}
+
+input:focus, textarea:focus {
+    outline:none;
+}
+
+
+.clear{
+    clear: both;
+}
+
+body{
+    width: 100%;
+    font: 12px Arial;
+}
+
+.bookmark{
+    display: block;
+    width: 12px;
+    height: 40px;
+    background:  url('../img/admin/bookmark.png')   no-repeat;
+    position: fixed;
+    left: 10px;
+    top: 0;
+}
+
+.bookmark:hover{
+    background-position: 0 -66px;
+}
+
+.head{
+    width: 98%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+
+.head .logo {
+    float: left;
+    width: 256px;
+    height: 50px;
+    display: block;
+    margin: 10px 0 0 5px;
+}
+
+
+.head .lang_list {
+    float: left;
+    width: 400px;
+    display: table;
+    margin: 25px 0 0 0;
+}
+
+.head  .lang_center{
+    margin:  0 auto;
+    display: table;
+}
+
+
+.head .lang_list A {
+    display: table;
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+
+.head .tel {
+    float: right;
+    display: table;
+    margin: 14px 20px 0 5px;
+    color: #69696a;
+    font: 20px Arial;
+    padding-left: 40px;
+}
+
+.head .tel SPAN {
+    font: 27px Arial;
+}
+
+
+.head .tel .order {
+    color: black;
+    font: 12px Arial;
+    border-bottom: 1px dashed black;
+    display: table;
+    margin: 7px 0 0 0px;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+
+
+.head .menu {
+    width: 100%;
+    margin: 20px 0px 0 0px;
+}
+
+
+.head .menu A {
+    float: left;
+    display: table;
+    font: normal normal 400 16px/24px Arial;
+    color: black;
+    margin-bottom: 3px;
+}
+
+
+
+
+.head .menu .selected{
+    color: #6ca400;
+}
+
+
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main .side{
+    width: 200px;
+    float: left;
+}
+
+.main .content{
+    width: 750px;
+    float: left;
+    min-height: 400px;
+}
+
+p{
+    font: 12px Arial;
+    margin-top: 8px;
+    line-height: 22px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+h3{
+    font: 29px Arial;
+    color: #1a1a1a;
+    margin-top: 15px;
+    display: table;
+}
+
+
+table {
+    margin-top: 10px;
+}
+
+table td {
+    padding-right: 20px;
+}
+
+
+table img {
+    border: 1px solid #eeeeee;
+}
+
+.line{
+    border: 3px solid #eeeeee;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #eeeeee;
+    margin-top: 30px;
+}
+
+
+
+.footer .center{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+.footer .copyright{
+    float:left;
+    width: 170px;
+    margin-top: 7px;
+}
+
+.footer .counters{
+    float:left;
+    width: 600px;
+}
+
+
+.footer .powered{
+    display: block;
+    float:right;
+    width: 180px;
+    font: 11px Arial;
+    text-align: right;
+    color: #aeaeae;
+    background:  url('../img/admin/logocms.png')   no-repeat;
+    padding-top: 25px;
+    margin-top: 10px;
+}
+
+
+.footer .menu {
+    width: 600px;
+    margin: 10px 0px 0 0px;
+}
+
+
+.footer .menu A {
+    color: black;
+}
+
+
+
+.slider{
+    width: 98%;
+    max-width: 1200px;
+    border: 1px solid #cbcbcb;
+    margin: 0 auto;
+
+}
+
+
+.slider .info{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slider .color{
+    display: table;
+    position: absolute;
+    margin-top: 100px;
+    padding: 5px 5px 35px 20px;
+}
+
+
+.slider h1{
+    font: 45px Arial;
+    color: white;
+}
+
+.slider h2{
+    font: 14px Arial;
+    color: #4ca900;
+    display: table;
+    width: 340px;
+    color: white;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+
+.slider .relative{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.slider .scroll {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.slider .slide{
+    float: left;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+}
+
+.pages{
+    margin: 20px 0 0 0;
+
+}
+
+.pages A {
+    margin: 0 10px 0 0;
+    display: block;
+    float: left;
+    color: black;
+    padding: 5px 10px 5px 10px;
+}
+
+.catalog{
+    width: 800px !important;
+    margin-top: 10px;
+}
+
+.catalog .item{
+    width: 260px;
+    float:  left;
+    margin-bottom: 20px;
+
+}
+
+.category{
+    margin-top: 20px;
+    font: 13px Arial;
+}
+
+
+.catalog img {
+    border: 1px solid #eeeeee;
+}
+
+.line{
+    border: 3px solid #eeeeee;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.news_date{
+    display: table;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.news_date:hover {
+    color: white !important;
+}
+
+.news_item{
+    margin-top: 5px;
+    display: table;
+    line-height: 20px;
+}
+
+
+
+.t1{
+    float:left;
+    width: 150px;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.t2{
+    float:left;
+}
+
+.feedback {
+    margin-top: 40px;
+}
+
+
+.form{
+    width: 300px;
+    font: 12px Arial;
+    padding: 10px;
+    border: 2px solid #e8e8e8;
+}
+
+
+
+.button{
+    display: table;
+    border: 0;
+    padding: 11px 20px 11px 40px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.message{
+    display: table;
+    background: #fdfae5;
+    border: 1px solid #dbd39b;
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+    color: #655800;
+    font:  12px Arial;
+}
+
+
+.message2{
+    display: none;
+    background: #fdfae5;
+    border: 1px solid #dbd39b;
+    padding: 10px 10px 10px 10px;
+    color: #655800;
+    font:  12px Arial;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.call_order{
+    position: absolute;
+    background: #eeeeee;
+    width: 250px;
+    padding-left: 20px;
+    display: none;
+}
+
+.call_order  .name{
+    font: 25px Arial;
+    margin: 15px 0 0 0px;
+    color: #5e5e5e;
+}
+
+
+.call_order  .form2{
+    width: 200px;
+    font: 12px Arial;
+    padding: 10px;
+    border: 2px solid #dfdede;
+}
+
+
+.call_order  .input{
+    margin-top: 20px;
+}
+
+
+.noscript {
+    display: block;
+    border: 1px solid red;
+    padding: 10px 20px 10px 20px;
+    font: 12px Arial;
+    color: white;
+    background: #84010a;
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
