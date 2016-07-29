@@ -6,20 +6,14 @@ class Router {
         $url = substr($_SERVER['REQUEST_URI'],1);
         $url = explode('/',$url);
 
-        if(!empty($url[0])) {
-            $controllerName = $url[0];
-        } else {
-            $controllerName = 'index';
-        }
+        if(!empty($url[0])) $controllerName = $url[0];
+        else $controllerName = 'index';
 
-        if(!empty($url[1])) {
-            $actionName = $url[1];
-        } else {
-            $actionName = 'index';
-        }
+        if(!empty($url[1])) $actionName = $url[1];
+        else $actionName = 'index';
+
 
         if(preg_match('/[0-9]+/',$url[1])) {
-
             $actionName = 'view';
         }
         $params = $url[1];
